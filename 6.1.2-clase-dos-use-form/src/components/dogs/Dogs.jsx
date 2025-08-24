@@ -71,7 +71,7 @@ function Dogs() {
           type="text"
           placeholder="nombre"
           className="border-1 w-40"
-          {...register("name", { required: true })}
+          {...register("name", { required: true })}    
         />
         <label htmlFor="">Raza</label>
         <input
